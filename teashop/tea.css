@@ -1,0 +1,50 @@
+*{
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+.header {
+    width: 100%;
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    opacity: 1;
+}
+
+.headerlist {
+    margin: 10px;
+}
+
+#cozypic {
+    height: 50px;
+}
+
+.breadcrumb a {
+    text-align: right;
+    text-decoration: underline;
+}
+
+.breadcrumb li {
+    float: left;
+}
+
+.breadcrumb a::before, 
+a::after {
+    position: absolute;
+
+}
+
+.breadcrumb a::before {
+    left: -10px;
+}
+
+.breadcrumb a::after {
+    left: 100%;
+}
